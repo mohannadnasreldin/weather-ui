@@ -13,8 +13,8 @@ import { CommonModule } from '@angular/common';
       <h2 class="text-2xl font-semibold text-center text-blue-500 mb-4">{{ city?.city || 'Unknown City' }}</h2>
       <p class="text-center text-gray-600">
         Temperature: 
-        {{ city?.forecast?.[0]?.['temperature' + unit] ?? 'N/A' }}°{{ unit }}
-      </p>
+        {{ city?.forecast?.[city.forecast.length - 1]?.['temperature' + unit] ?? 'N/A' }}°{{ unit }}
+        </p>
     </div>
   `,
   styleUrls: ['./city-weather-card.component.css']
