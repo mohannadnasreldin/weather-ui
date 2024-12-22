@@ -1,1 +1,95 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Global Styles (styles.css or styles.scss) */
+
+/* Apply the gradient background and other styles globally */
+body {
+    background: linear-gradient(to right, #63a4ff, #83eaf1); /* Blue gradient */
+    font-family: 'Arial', sans-serif; /* Or any other font family you prefer */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1, h2, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #ffffff; /* White text for headings */
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem;
+    min-height: 100vh;
+  }
+  
+  .text-white {
+    color: #ffffff !important;
+  }
+  
+  .bg-gradient-to-r {
+    background: linear-gradient(to right, #63a4ff, #83eaf1);
+  }
+  
+  .text-blue-500 {
+    color: #3b82f6;
+  }
+  
+  .text-gray-700 {
+    color: #4b5563;
+  }
+  
+  .text-blue-700 {
+    color: #1e40af;
+  }
+  
+  /* Additional global styling */
+  .bg-white {
+    background-color: #ffffff;
+  }
+  
+  .rounded-xl {
+    border-radius: 1rem;
+  }
+  
+  .shadow-xl {
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Utility classes */
+  .text-center {
+    text-align: center;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .space-x-6 {
+    gap: 1.5rem;
+  }
+  
+  .mb-6 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .mb-8 {
+    margin-bottom: 2rem;
+  }
+  
+  /* Additional styles */
+  body, html {
+    min-height: 100%;
+  }
+  
